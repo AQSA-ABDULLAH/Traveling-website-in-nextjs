@@ -4,6 +4,8 @@ import BookTrip from "./sections/book-trip/BookTrip";
 import Destinations from "./sections/destinations/Destinations";
 import Testimonials from "./sections/testimonials/Testimonials";
 import BrandLogos from "./sections/brand-logo/BrandLogo";
+import SubscribeSection from "./sections/subscribe-section/SubscribeSection";
+import Footer from "./sections/footer/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <BookTrip />
       <Testimonials />
       <BrandLogos />
+      <SubscribeSection />
+      <Footer />
     </div>
   );
 }
