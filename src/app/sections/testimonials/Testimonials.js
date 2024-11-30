@@ -1,17 +1,12 @@
+"use client";
 import { useState } from 'react';
 
 const testimonials = [
   {
-    name: 'Mike Taylor',
-    location: 'Lahore, Pakistan',
-    image: '/path/to/image1.jpg', // Replace with the actual image path
-    text: 'On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.',
+    image: '/assest/Testimonials/Group 64.png'
   },
   {
-    name: 'Chris Thomas',
-    location: 'CEO of Red Button',
-    image: '/path/to/image2.jpg', // Replace with the actual image path
-    text: 'Quickly adopt next-gen solutions with business-centered strategies and user engagement.',
+    image: '/assest/Testimonials/Group 64.png'
   },
 ];
 
@@ -29,34 +24,35 @@ export default function Testimonials() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto py-16 text-center">
-      <h2 className="text-3xl font-bold mb-8">What People Say About Us</h2>
-      <div className="relative">
-        <div className="bg-white shadow-lg rounded-lg p-6">
+    <div className="flex py-16 ml-36 justify-between">
+      <section className=''>
+        <h3 className='text-[18px] text-[#5E6282] font-poppins font-semibold mb-2 tracking-wider'>TESTIMONIALS</h3>
+        <h2 className="text-[53px] text-[#14183E] font-volkhov font-bold mb-6">What People Say About Us</h2>
+        <img src='/assest/Testimonials/Group 61.png'/>
+      </section>
+      <section className="w-4/5 flex mr-12">
+        <div>
           <img
             src={testimonials[activeIndex].image}
             alt={testimonials[activeIndex].name}
-            className="w-16 h-16 rounded-full mx-auto mb-4"
           />
-          <p className="text-gray-700 italic">{testimonials[activeIndex].text}</p>
-          <p className="mt-4 font-semibold">{testimonials[activeIndex].name}</p>
-          <p className="text-sm text-gray-500">{testimonials[activeIndex].location}</p>
         </div>
-        <div className="flex justify-between mt-4">
+        <div className="flex flex-col justify-between mt-4">
           <button
             onClick={prevSlide}
-            className="p-2 text-gray-700 hover:text-blue-500"
+            className="w-12 h-12 flex items-center justify-center text-3xl text-gray-700 hover:text-blue-500"
           >
-            &#8249;
+            &#x2303;
           </button>
           <button
             onClick={nextSlide}
-            className="p-2 text-gray-700 hover:text-blue-500"
+            className="w-12 h-12 flex items-center justify-center text-3xl text-gray-700 hover:text-blue-500"
           >
-            &#8250;
+            &#x2304;
           </button>
+
         </div>
-      </div>
+      </section>
     </div>
   );
 }

@@ -29,7 +29,7 @@ const BookTrip = () => {
             Book Your Next Trip In 3 Easy Steps
           </h2>
 
-          <div className="space-y-6 w-[440px]">
+          <div className="w-[440px]">
             {steps.map((step, index) => (
               <div key={index} className="flex items-center gap-4">
                 <div
