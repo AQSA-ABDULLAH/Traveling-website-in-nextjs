@@ -1,10 +1,10 @@
 export default function BrandLogos() {
     const brands = [
-      { name: 'Axon', logo: '/path/to/axon-logo.png' },
-      { name: 'Jetstar', logo: '/path/to/jetstar-logo.png' },
-      { name: 'Expedia', logo: '/path/to/expedia-logo.png' },
-      { name: 'Qantas', logo: '/path/to/qantas-logo.png' },
-      { name: 'Alitalia', logo: '/path/to/alitalia-logo.png' },
+      { name: 'Axon', logo: '/assest/brand-logo/image 31.png' },
+      { name: 'Jetstar', logo: '/assest/brand-logo/image 30.png' },
+      { name: 'Expedia', logo: '/assest/brand-logo/image 29.png' },
+      { name: 'Qantas', logo: '/assest/brand-logo/image 28.png' },
+      { name: 'Alitalia', logo: '/assest/brand-logo/image 27.png' },
     ];
   
     return (
@@ -21,7 +21,7 @@ export default function BrandLogos() {
                 <img
                   src={brand.logo}
                   alt={brand.name}
-                  className="h-12 mx-auto object-contain"
+                  className="h-12 object-contain"
                 />
               </div>
             ))}

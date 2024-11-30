@@ -3,6 +3,7 @@ import ServicesSection from "./sections/services/Services";
 import BookTrip from "./sections/book-trip/BookTrip";
 import Destinations from "./sections/destinations/Destinations";
 import Testimonials from "./sections/testimonials/Testimonials";
+import BrandLogos from "./sections/brand-logo/BrandLogo";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Destinations />
       <BookTrip />
       <Testimonials />
+      <BrandLogos />
     </div>
   );
 }
