@@ -8,7 +8,7 @@ export default function Main() {
           <tag className="text-[20px] text-[#DF6951] uppercase font-semibold mb-8">
             Best Destinations around the world
           </tag>
-          <h1 className="text-[93px] text-[#181E4B] font-volkhov font-black leading-extra-loose mb-8">
+          <h1 className="text-[93px] text-[#181E4B] font-volkhov font-black leading-2 tracking-wider mb-8">
             Travel, enjoy and live a new and full life
           </h1>
 

@@ -1,8 +1,8 @@
 export default function SubscribeSection() {
   return (
-    <div className="bg-purple-50 mx-28 mt-24 py-16 px-8 relative overflow-hidden">
+    <div className="bg-purple-50 rounded-tl-large rounded-b-2xl mx-28 mt-24 py-24 px-8 relative">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-3xl md:text-2xl lg:text-3xl text-[#5E6282] font-poppins font-bold leading-normal mb-16">
+        <h2 className="text-3xl md:text-2xl lg:text-[32px] text-[#5E6282] font-bold leading-extra-loose mb-16">
           Subscribe to get information, latest news and other interesting offers about Cobham
         </h2>
 
@@ -21,21 +21,8 @@ export default function SubscribeSection() {
       </div>
 
       {/* Decorative Element */}
-      <div className="absolute top-0 right-10 bg-purple-400 p-3 rounded-full shadow-lg">
-        <svg
-          className="w-6 h-6 text-white"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10l9-7 9 7-9 7-9-7z"
-          />
-        </svg>
+      <div className="absolute top-[-14px] right-[-14px] rounded-full shadow-lg">
+        <img src="/assest/subscribe/Group 77.png" className="z-10" alt="Subscription Icon" />
       </div>
     </div>
   );
