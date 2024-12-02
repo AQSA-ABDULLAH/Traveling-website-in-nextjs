@@ -13,7 +13,8 @@ module.exports = {
       },
       fontFamily: {
         volkhov: ['Volkhov', 'serif'],
-      },
+        poppins: ['Poppins']
+      }
     },
   },
   plugins: [],
