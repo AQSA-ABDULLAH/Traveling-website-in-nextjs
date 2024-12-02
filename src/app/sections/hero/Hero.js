@@ -8,7 +8,7 @@ export default function Hero() {
           <img
               src="/assest/decore/Decore.png"
               alt=""
-              className="absolute top-[-149px] left-[736px] w-[766.31px] h-[872.58px] opacity-100"
+              className="absolute top-[0px] right-[0px] w-[766.31px] h-[872.58px] opacity-100"
           />
           
           {/* Header and Main */}
