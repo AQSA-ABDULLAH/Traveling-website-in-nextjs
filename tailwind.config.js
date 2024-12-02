@@ -14,6 +14,9 @@ module.exports = {
       fontFamily: {
         volkhov: ['Volkhov', 'serif'],
         poppins: ['Poppins']
+      },
+      lineHeight: {
+        'extra-loose': '5.5rem'
       }
     },
   },

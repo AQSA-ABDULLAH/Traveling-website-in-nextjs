@@ -6,7 +6,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="max-w-screen-xl mx-auto px-8 py-12 flex justify-between items-center">
+    <header className="max-w-screen-xl mx-auto px-8 pt-12 flex justify-between items-center">
       {/* Logo Section */}
       <section>
         <div className="flex items-center space-x-2">
