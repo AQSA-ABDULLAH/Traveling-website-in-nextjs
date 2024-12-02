@@ -35,24 +35,27 @@ const Destinations = () => {
                 {destinations.map((destination, index) => (
                     <div
                         key={index}
-                        className="w-[300px] bg-white shadow-md rounded-lg overflow-hidden transition-transform transform hover:scale-105"
+                        className="w-[300px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
                     >
                         {/* Image */}
                         <img
                             src={destination.image}
                             alt={destination.title}
-                            className="w-full h-auto object-cover"
+                            className="w-full h-58 object-cover"
                         />
 
                         {/* Card Content */}
-                        <div className="p-6 text-center">
-                            <h3 className="text-xl font-semibold text-gray-800">
-                                {destination.title}
-                            </h3>
-                            <p className="text-lg text-gray-600 mt-2">
-                                {destination.price}
-                            </p>
-                            <p className="text-sm text-gray-500 mt-1">
+                        <div className="p-6 text-[16px] text-[#5E6282]">
+                            <div className="flex justify-between">
+                                <h3>
+                                    {destination.title}
+                                </h3>
+                                <p>
+                                    {destination.price}
+                                </p>
+                            </div>
+                            <p className="flex gap-2 mt-2">
+                                <img src="/assest/destination/navigation 1.png" alt="icon"/>
                                 {destination.duration}
                             </p>
                         </div>

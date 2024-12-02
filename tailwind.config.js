@@ -17,6 +17,9 @@ module.exports = {
       },
       lineHeight: {
         'extra-loose': '5.5rem'
+      },
+      borderRadius: {
+        default: '0.25rem',
       }
     },
   },
