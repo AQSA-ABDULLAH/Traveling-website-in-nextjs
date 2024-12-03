@@ -16,7 +16,7 @@ const Header = () => {
 
 
       {/* Navigation Links */}
-      <section className='flex justify-between items-center gap-10'>
+      <section className='flex justify-between items-center gap-12'>
         <nav className="hidden md:flex space-x-16">
           <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Destinations</a>
           <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Hotels</a>

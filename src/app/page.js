@@ -14,12 +14,15 @@ export default function Home() {
       <div className="2xl:pr-40 lg:pr-32 md:pr-20">
         <ServicesSection />
         <Destinations />
+        </div>
+        <div className="lg:pr-0 md:pr-20">
         <BookTrip />
+        </div>
         <Testimonials />
         <BrandLogos />
         <SubscribeSection />
         <Footer />
-      </div>
+     
     </div>
   );
 }
