@@ -18,8 +18,10 @@ export default function Home() {
         <div className="lg:pr-0 md:pr-20">
         <BookTrip />
         </div>
+        <div className="2xl:pr-40 lg:pr-32 md:pr-20">
         <Testimonials />
         <BrandLogos />
+        </div>
         <SubscribeSection />
         <Footer />
      

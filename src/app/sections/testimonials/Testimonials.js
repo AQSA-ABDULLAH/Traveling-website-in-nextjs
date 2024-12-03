@@ -1,12 +1,12 @@
 "use client";
-import { useState } from 'react';
+import { useState } from "react";
 
 const testimonials = [
   {
-    image: '/assest/Testimonials/Group 64.png'
+    image: "/assest/Testimonials/Group 64.png",
   },
   {
-    image: '/assest/Testimonials/Group 64.png'
+    image: "/assest/Testimonials/Group 64.png",
   },
 ];
 
@@ -24,36 +24,55 @@ export default function Testimonials() {
   };
 
   return (
-    <div className="flex py-16 ml-36 justify-between">
-      <section className=''>
-        <h3 className='text-[18px] text-[#5E6282] font-poppins font-semibold mb-2 tracking-wider'>TESTIMONIALS</h3>
-        <h2 className="text-[53px] text-[#14183E] font-volkhov font-bold mb-6">What People Say About Us</h2>
-        <img src='/assest/Testimonials/Group 61.png'/>
-      </section>
-      <section className="w-4/5 flex mr-12">
-        <div>
+    <div className="py-16">
+      <div className="max-w-screen flex flex-col lg:flex-row items-center justify-between">
+        {/* Left Section - Title and Heading */}
+        <section className="lg:w-[40%]">
+          <h3 className="text-[18px] 2xl:text-[28px] text-[#5E6282] font-poppins font-semibold mb-2 tracking-wider">
+            TESTIMONIALS
+          </h3>
+          <h2 className="text-[53px] 2xl:text-[96px] text-[#14183E] font-volkhov font-bold mb-6">
+            What People Say About Us
+          </h2>
           <img
-            src={testimonials[activeIndex].image}
-            alt={testimonials[activeIndex].name}
+            src="/assest/Testimonials/Group 61.png"
+            alt="Testimonials decoration"
+            className="w-[100px] mt-4"
           />
-        </div>
-        <div className="flex flex-col justify-between mt-4">
-          <button
-            onClick={prevSlide}
-            className="w-12 h-12 flex items-center justify-center text-3xl text-gray-700 hover:text-blue-500"
-          >
-            &#x2303;
-          </button>
-          <button
-            onClick={nextSlide}
-            className="w-12 h-12 flex items-center justify-center text-3xl text-gray-700 hover:text-blue-500"
-          >
-            &#x2304;
-          </button>
+        </section>
 
-        </div>
-      </section>
+        {/* Right Section - Image Carousel */}
+        <section className="flex items-center justify-end mt-12 lg:mt-0">
+          <div className="relative">
+            {/* Image Carousel */}
+            <div className="w-full h-auto">
+              <img
+                src={testimonials[activeIndex].image}
+                alt={`Testimonial ${activeIndex + 1}`}
+                className="w-full h-auto 2xl:w-[980px] object-contain"
+              />
+            </div>
+
+            {/* Navigation Buttons */}
+            <div className="absolute top-1/2 right-[-50px] transform -translate-y-1/2 flex flex-col items-center space-y-4">
+              <button
+                onClick={prevSlide}
+                className="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-full shadow-lg hover:bg-gray-300"
+              >
+                &#x25B2; {/* Up arrow */}
+              </button>
+              <button
+                onClick={nextSlide}
+                className="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-full shadow-lg hover:bg-gray-300"
+              >
+                &#x25BC; {/* Down arrow */}
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }
+
 

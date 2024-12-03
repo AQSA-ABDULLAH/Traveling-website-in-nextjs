@@ -18,7 +18,7 @@ const BookTrip = () => {
   ];
 
   return (
-    <div className="lg:py-16 lg:pt-0 pt-32">
+    <div className="lg:pt-0 pt-32">
       <div className="max-w-screen flex flex-col justify-center lg:flex-row lg:items-center lg:justify-between">
         {/* Left Side */}
         <div className="lg:w-[48%] 2xl:w-[43%] lg:pr-12 2xl:pr-4">
