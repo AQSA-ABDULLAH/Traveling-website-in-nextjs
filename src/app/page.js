@@ -9,15 +9,17 @@ import Footer from "./sections/footer/Footer";
 
 export default function Home() {
   return (
-    <div className="pl-32">
+    <div className="2xl:pl-40 lg:pl-32 md:pl-20">
       <Hero />
-      <ServicesSection />
-      <Destinations />
-      <BookTrip />
-      <Testimonials />
-      <BrandLogos />
-      <SubscribeSection />
-      <Footer />
+      <div className="2xl:pr-40 lg:pr-32 md:pr-20">
+        <ServicesSection />
+        <Destinations />
+        <BookTrip />
+        <Testimonials />
+        <BrandLogos />
+        <SubscribeSection />
+        <Footer />
+      </div>
     </div>
   );
 }

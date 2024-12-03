@@ -24,28 +24,28 @@ const Destinations = () => {
         <section className="py-16 bg-white">
             {/* Section Header */}
             <div className="container mx-auto text-center mb-12">
-                <p className="text-lg text-gray-500">Top Selling</p>
-                <h2 className="text-4xl font-bold text-gray-800">
+                <p className="text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">Top Selling</p>
+                <h2 className="text-[32px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-2">
                     Top Destinations
                 </h2>
             </div>
 
             {/* Destination Cards */}
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="flex flex-wrap justify-center gap-16 xl:justify-between ">
                 {destinations.map((destination, index) => (
                     <div
                         key={index}
-                        className="w-[300px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
+                        className="w-[320px] 2xl:w-[420px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
                     >
                         {/* Image */}
                         <img
                             src={destination.image}
                             alt={destination.title}
-                            className="w-full h-58 object-cover"
+                            className="w-full h-auto object-cover"
                         />
 
                         {/* Card Content */}
-                        <div className="p-6 text-[16px] text-[#5E6282]">
+                        <div className="p-6 text-[17px] 2xl:text-[28px] text-[#5E6282]">
                             <div className="flex justify-between">
                                 <h3>
                                     {destination.title}

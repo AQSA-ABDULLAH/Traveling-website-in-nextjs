@@ -30,23 +30,26 @@ const services = [
         icon: "/assest/services/power-supply_1.png",
         bgImage: "/assest/services/Rectangle 160.png",
         bgPosition: { top: "2", left: "6" }
-    },
+    }
 ];
 
 const ServicesSection = () => {
     return (
-        <section className="py-16">
-            <div className="container mx-auto text-center mb-12">
-                <p className="text-[19px] text-[#5E6282] font-poppins font-semibold mb-3">CATEGORY</p>
-                <h2 className="text-[53px] text-[#14183E] font-volkhov font-bold pb-14">
+        <section className="py-20">
+            {/* Section Header */}
+            <div className="text-center mb-12">
+                <p className="text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">CATEGORY</p>
+                <h2 className="text-[32px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-14">
                     We Offer Best Services
                 </h2>
             </div>
-            <div className="flex flex-wrap justify-center gap-24">
+
+            {/* Service Cards */}
+            <div className="flex flex-wrap justify-center gap-16 xl:justify-between">
                 {services.map((service, index) => (
                     <div
                         key={index}
-                        className="w-[200px] flex flex-col items-center relative"
+                        className="w-[280px] md:w-[220px] lg:w-[200px] 2xl:w-[320px] flex flex-col items-center relative"
                     >
                         {/* Background image with dynamic position */}
                         <div
@@ -71,10 +74,10 @@ const ServicesSection = () => {
                             />
                         </div>
                         <div className="text-center pt-10">
-                            <h3 className="text-[20px] text-[#1E1D4C] font-semibold mb-2 tracking-wide">
+                            <h3 className="text-[18px] lg:text-[20px] 2xl:text-[36px] text-[#1E1D4C] font-semibold mb-2 tracking-wide 2xl:tracking-normal">
                                 {service.title}
                             </h3>
-                            <p className="text-[18px] text-[#5E6282] mb-2 tracking-wide">
+                            <p className="text-[18px] lg:text-[18px] 2xl:text-[27px] text-[#5E6282] mb-2 tracking-wide">
                                 {service.description}
                             </p>
                         </div>
@@ -86,3 +89,4 @@ const ServicesSection = () => {
 };
 
 export default ServicesSection;
+
