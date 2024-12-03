@@ -3,12 +3,12 @@ import Main from "./Main";
 
 export default function Hero() {
   return (
-      <section className="relative w-full h-full">
+      <section className="relative w-full h-full pr-20">
           {/* Background Image */}
           <img
               src="/assest/decore/Decore.png"
               alt=""
-              className="absolute top-[0px] right-[0px] w-[766.31px] h-[872.58px] opacity-100"
+              className="absolute top-[0px] right-[0px] w-[620px] h-[640px] opacity-100"
           />
           
           {/* Header and Main */}

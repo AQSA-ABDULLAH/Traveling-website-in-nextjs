@@ -9,7 +9,7 @@ import Footer from "./sections/footer/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="pl-32">
       <Hero />
       <ServicesSection />
       <Destinations />

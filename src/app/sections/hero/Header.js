@@ -6,7 +6,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="max-w-screen-xl mx-auto px-8 pt-12 flex justify-between items-center">
+    <header className="max-w-screen pt-12 flex justify-between items-center">
       {/* Logo Section */}
       <section>
         <div className="flex items-center space-x-2">
@@ -16,7 +16,7 @@ const Header = () => {
 
 
       {/* Navigation Links */}
-      <section className='flex justify-between items-center gap-16'>
+      <section className='flex justify-between items-center gap-10'>
         <nav className="hidden md:flex space-x-16">
           <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Destinations</a>
           <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Hotels</a>

@@ -16,7 +16,7 @@ module.exports = {
         poppins: ['Poppins']
       },
       lineHeight: {
-        'extra-loose': '5.5rem',
+        'extra-loose': '5.4rem',
         'large': '4rem'
       },
       borderRadius: {
