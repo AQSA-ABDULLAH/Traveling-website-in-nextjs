@@ -10,7 +10,7 @@ export default function BrandLogos() {
   return (
     <div className="py-20 bg-white">
       <div className="max-w-screen">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col sm:flex-row justify-between items-center">
           {brands.map((brand, index) => (
             <div
               key={index}
@@ -19,7 +19,7 @@ export default function BrandLogos() {
               <img
                 src={brand.logo}
                 alt={brand.name}
-                className="h-10 2xl:h-16 object-contain"
+                className="w-40 sm:w-auto sm:h-10 2xl:h-16 object-contain"
               />
             </div>
           ))}
