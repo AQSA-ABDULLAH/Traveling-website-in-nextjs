@@ -31,7 +31,7 @@ export default function Testimonials() {
           <h3 className="text-[18px] 2xl:text-[28px] text-[#5E6282] font-poppins font-semibold mb-2 tracking-wider">
             TESTIMONIALS
           </h3>
-          <h2 className="text-[38px] sm:text-[49px] lg:text-[53px] 2xl:text-[96px] text-[#14183E] font-volkhov font-bold mb-6">
+          <h2 className="text-[38px] sm:text-[49px] lg:text-[53px] 2xl:text-[63px] desktop:text-[96px] text-[#14183E] font-volkhov font-bold mb-6">
             What People Say About Us
           </h2>
           <img
@@ -49,16 +49,12 @@ export default function Testimonials() {
               <img
                 src={testimonials[activeIndex].image}
                 alt={`Testimonial ${activeIndex + 1}`}
-                className="w-full h-auto 2xl:w-[980px] object-contain"
+                className="w-full h-auto 2xl:w-[750px] desktop:w-[980px] object-contain"
               />
             </div>
+          <div>
+        </div>
 
-            <div>
-
-            </div>
-
-            {/* Navigation Buttons */}
-            {/* Navigation Buttons */}
             {/* This div shows on larger screens */}
             <div className="absolute top-1/2 right-[-50px] transform -translate-y-1/2 flex flex-col items-center space-y-4 hidden lg:flex">
               <button
