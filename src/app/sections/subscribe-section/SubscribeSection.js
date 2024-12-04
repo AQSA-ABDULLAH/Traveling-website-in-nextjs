@@ -2,7 +2,7 @@ export default function SubscribeSection() {
   return (
     <div className="bg-purple-50 rounded-tl-large rounded-b-2xl mt-24 py-24 relative">
       <div className="px-8 lg:px-32 text-center">
-        <h1 className="text-[20px] sm:text-[24px] lg:text-[32px] 2xl:text-[54px] leading-8 md:leading-large text-[#5E6282] font-bold mb-16 2xl:mb-32">
+        <h1 className="text-[20px] sm:text-[24px] lg:text-[32px] 2xl:text-[40px] dektop:text-[54px] leading-8 md:leading-large text-[#5E6282] font-bold mb-16 2xl:mb-32">
           Subscribe to get information, latest news and other interesting offers about Cobham
         </h1>
 
