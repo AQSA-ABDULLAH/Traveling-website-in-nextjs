@@ -2,7 +2,7 @@ const services = [
     {
         title: "Calculated Weather",
         description:
-            "Built Wicket longer admire do barton vanity itself do it.",
+            "Built Wicket longer admire do barton vanity itself do it before burner.",
         icon: "/assest/services/satellite-dish.png",
         bgImage: "/assest/services/Rectangle 157.png",
         bgPosition: { top: "2", left: "7" }
@@ -49,7 +49,7 @@ const ServicesSection = () => {
                 {services.map((service, index) => (
                     <div
                         key={index}
-                        className="w-[280px] md:w-[220px] lg:w-[200px] 2xl:w-[320px] flex flex-col items-center relative"
+                        className="w-[280px] md:w-[220px] lg:w-[200px] 2xl:w-[340px] desktop:w-[320px] flex flex-col items-center relative"
                     >
                         {/* Background image with dynamic position */}
                         <div

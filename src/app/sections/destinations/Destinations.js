@@ -35,7 +35,7 @@ const Destinations = () => {
                 {destinations.map((destination, index) => (
                     <div
                         key={index}
-                        className="w-[280px] sm:w-[400px] lg:w-[320px] xl:w-[290px] 2xl:w-[420px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
+                        className="w-[280px] sm:w-[400px] lg:w-[320px] xl:w-[290px] 2xl:w-[360px] desktop:w-[420px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
                     >
                         {/* Image */}
                         <img
