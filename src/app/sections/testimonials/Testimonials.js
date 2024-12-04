@@ -6,7 +6,7 @@ const testimonials = [
     image: "/assest/Testimonials/Group 64.png",
   },
   {
-    image: "/assest/Testimonials/Group 64.png",
+    image: "/assest/Testimonials/Group 65.png",
   },
 ];
 
