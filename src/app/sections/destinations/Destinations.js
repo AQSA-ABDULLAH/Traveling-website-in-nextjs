@@ -25,7 +25,7 @@ const Destinations = () => {
             {/* Section Header */}
             <div className="container mx-auto text-center mb-12">
                 <p className="text-[22px] sm:text-[28px] lg:text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">Top Selling</p>
-                <h2 className="text-[38px] sm:text-[48px] lg:text-[32px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-2">
+                <h2 className="text-[38px] sm:text-[48px] lg:text-[40px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-2">
                     Top Destinations
                 </h2>
             </div>
@@ -35,7 +35,7 @@ const Destinations = () => {
                 {destinations.map((destination, index) => (
                     <div
                         key={index}
-                        className="w-[280px] sm:w-[400px] lg:w-[320px] 2xl:w-[420px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
+                        className="w-[280px] sm:w-[400px] lg:w-[320px] xl:w-[290px] 2xl:w-[420px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
                     >
                         {/* Image */}
                         <img
