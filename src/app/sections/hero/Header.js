@@ -10,7 +10,7 @@ const Header = () => {
       {/* Logo Section */}
       <section>
         <div className="flex items-center space-x-2">
-          <img src='/assest/logo.png' className='2xl:w-[180px]' />
+          <img src='/assest/Logo.png' className='2xl:w-[180px]' />
         </div>
       </section>
 
