@@ -39,13 +39,13 @@ const ServicesSection = () => {
             {/* Section Header */}
             <div className="text-center mb-12">
                 <p className="text-[22px] lg:text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">CATEGORY</p>
-                <h2 className="text-[38px] sm:text-[45px] lg:text-[32px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-14">
+                <h2 className="text-[38px] sm:text-[45px] lg:text-[32px] 2xl:text-[65px] desktop:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-14">
                     We Offer Best Services
                 </h2>
             </div>
 
             {/* Service Cards */}
-            <div className="flex flex-wrap justify-center gap-16 xl:justify-between">
+            <div className="flex flex-wrap justify-center gap-16 xl:justify-between 2xl:justify-center desktop:justify-between">
                 {services.map((service, index) => (
                     <div
                         key={index}
