@@ -38,8 +38,8 @@ const ServicesSection = () => {
         <section className="py-20">
             {/* Section Header */}
             <div className="text-center mb-12">
-                <p className="text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">CATEGORY</p>
-                <h2 className="text-[32px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-14">
+                <p className="text-[22px] lg:text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">CATEGORY</p>
+                <h2 className="text-[38px] sm:text-[45px] lg:text-[32px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-14">
                     We Offer Best Services
                 </h2>
             </div>

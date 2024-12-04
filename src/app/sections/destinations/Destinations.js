@@ -24,8 +24,8 @@ const Destinations = () => {
         <section className="py-16 bg-white">
             {/* Section Header */}
             <div className="container mx-auto text-center mb-12">
-                <p className="text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">Top Selling</p>
-                <h2 className="text-[32px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-2">
+                <p className="text-[22px] sm:text-[28px] lg:text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">Top Selling</p>
+                <h2 className="text-[38px] sm:text-[48px] lg:text-[32px] 2xl:text-[74px] md:text-[48px] lg:text-[53px] text-[#14183E] font-volkhov font-bold pb-2">
                     Top Destinations
                 </h2>
             </div>
@@ -35,7 +35,7 @@ const Destinations = () => {
                 {destinations.map((destination, index) => (
                     <div
                         key={index}
-                        className="w-[320px] 2xl:w-[420px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
+                        className="w-[280px] sm:w-[400px] lg:w-[320px] 2xl:w-[420px] bg-white shadow-md rounded-2xl overflow-hidden transition-transform transform hover:scale-105"
                     >
                         {/* Image */}
                         <img
@@ -45,7 +45,7 @@ const Destinations = () => {
                         />
 
                         {/* Card Content */}
-                        <div className="p-6 text-[17px] 2xl:text-[28px] text-[#5E6282]">
+                        <div className="p-6 text-[20px] sm:text-[25px] lg:text-[17px] 2xl:text-[28px] text-[#5E6282]">
                             <div className="flex justify-between">
                                 <h3>
                                     {destination.title}

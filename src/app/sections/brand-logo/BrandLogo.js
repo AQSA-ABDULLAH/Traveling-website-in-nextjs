@@ -19,7 +19,7 @@ export default function BrandLogos() {
               <img
                 src={brand.logo}
                 alt={brand.name}
-                className="h-12 2xl:h-16 object-contain"
+                className="h-10 2xl:h-16 object-contain"
               />
             </div>
           ))}

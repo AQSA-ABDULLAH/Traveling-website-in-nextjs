@@ -10,30 +10,30 @@ const Header = () => {
       {/* Logo Section */}
       <section>
         <div className="flex items-center space-x-2">
-          <img src='/assest/logo.png' />
+          <img src='/assest/logo.png' className='2xl:w-[180px]' />
         </div>
       </section>
 
 
       {/* Navigation Links */}
-      <section className='flex justify-between items-center gap-12'>
-        <nav className="hidden md:flex space-x-16">
-          <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Destinations</a>
-          <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Hotels</a>
-          <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Flights</a>
-          <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Bookings</a>
-          <a href="#" className="text-[18px] text-[#212832] font-Google Sans font-medium">Login</a>
+      <section className='flex justify-between items-center gap-6'>
+        <nav className="text-[18px] 2xl:text-[30px] text-[#212832] font-Google Sans font-medium hidden md:flex space-x-16 ">
+          <a href="#" >Destinations</a>
+          <a href="#">Hotels</a>
+          <a href="#">Flights</a>
+          <a href="#">Bookings</a>
+          <a href="#">Login</a>
         </nav>
 
 
         <div className="hidden md:block">
-          <button className="border border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-6 py-2 rounded-lg">
+          <button className="2xl:text-[30px] border border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-6 py-2 rounded-lg">
             Sign up
           </button>
         </div>
 
         {/* Language Selector Dropdown */}
-        <div className="hidden md:block">
+        <div className="2xl:text-[30px] hidden md:block">
           <select className="bg-transparent text-gray-800 rounded-md">
             <option value="EN">EN</option>
             <option value="FR">FR</option>
