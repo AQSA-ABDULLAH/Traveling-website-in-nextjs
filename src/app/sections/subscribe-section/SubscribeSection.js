@@ -1,20 +1,21 @@
 export default function SubscribeSection() {
   return (
-    <div className="bg-purple-50 rounded-tl-large rounded-b-2xl mx-28 mt-24 py-24 px-8 relative">
-      <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-3xl md:text-2xl lg:text-[32px] text-[#5E6282] font-bold leading-extra-loose mb-16">
+    <div className="bg-purple-50 rounded-tl-large rounded-b-2xl mt-24 py-24 relative">
+      <div className="px-32 text-center">
+        <h1 className="text-[32px] 2xl:text-[54px] leading-large text-[#5E6282] font-bold mb-16 2xl:mb-32">
           Subscribe to get information, latest news and other interesting offers about Cobham
-        </h2>
+        </h1>
 
         <div className="flex justify-center items-center space-x-4">
-          <div className="flex items-center bg-white rounded-lg p-2 w-full max-w-sm">
+          <div className="flex items-center bg-white rounded-lg p-2 w-full max-w-[420px] 2xl:max-w-[700px]">
             <input
               type="email"
               placeholder="Your email"
-              className="w-full px-4 py-2 text-gray-600 focus:outline-none"
+              className="w-full 2xl:w-[400px] px-4
+              py-2 text-gray-600 focus:outline-none 2xl:text-[38px]"
             />
           </div>
-          <button className="bg-orange-500 text-white px-8 py-4 rounded-lg hover:bg-orange-600">
+          <button className="bg-orange-500 2xl:text-[38px] text-white px-8 py-4 rounded-lg hover:bg-orange-600">
             Subscribe
           </button>
         </div>
