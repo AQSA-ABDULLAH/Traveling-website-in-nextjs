@@ -17,7 +17,7 @@ const Header = () => {
 
       {/* Navigation Links */}
       <section className='flex justify-between items-center gap-6'>
-        <nav className="text-[18px] 2xl:text-[30px] text-[#212832] font-Google Sans font-medium hidden md:flex space-x-16 ">
+        <nav className="text-[18px] 2xl:text-[26px] desktop:text-[32px] text-[#212832] font-Google Sans font-medium hidden md:flex space-x-16 ">
           <a href="#" >Destinations</a>
           <a href="#">Hotels</a>
           <a href="#">Flights</a>
@@ -27,13 +27,13 @@ const Header = () => {
 
 
         <div className="hidden md:block">
-          <button className="2xl:text-[30px] border border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-6 py-2 rounded-lg">
+          <button className="2xl:text-[26px] desktop:text-[30px] border border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-6 py-2 rounded-lg">
             Sign up
           </button>
         </div>
 
         {/* Language Selector Dropdown */}
-        <div className="2xl:text-[30px] hidden md:block">
+        <div className="2xl:text-[26px] desktop:text-[30px] hidden md:block">
           <select className="bg-transparent text-gray-800 rounded-md">
             <option value="EN">EN</option>
             <option value="FR">FR</option>
