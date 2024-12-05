@@ -35,7 +35,8 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section className="py-20">
+        <section className="py-20 relative max-h-[620px]">
+
             {/* Section Header */}
             <div className="text-center mb-12">
                 <p className="text-[22px] lg:text-[19px] 2xl:text-[32px] text-[#5E6282] font-poppins font-semibold mb-3">
@@ -47,15 +48,14 @@ const ServicesSection = () => {
             </div>
 
             {/* Service Cards */}
-            <div className="flex flex-wrap justify-center gap-16 xl:justify-between 2xl:justify-center desktop:justify-between">
-
+            <div className="flex flex-wrap justify-center gap-16 xl:justify-between 2xl:justify-center desktop:justify-between relative">
                 {services.map((service, index) => (
                     <div
                         key={index}
                         className="w-[280px] md:w-[220px] lg:w-[200px] 2xl:w-[340px] desktop:w-[320px] flex flex-col 
-                        items-center relative group "
+                        items-center relative group"
                     >
-                        <section className="z-10 hover:bg-white rounded-2xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:p-2">
+                        <section className="z-10 hover:bg-white rounded-2xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:p-2 relative">
                             {/* Background image with dynamic position */}
                             <div
                                 className="absolute transition-all duration-300 opacity-70 group-hover:opacity-100"
@@ -88,10 +88,9 @@ const ServicesSection = () => {
                             </div>
                         </section>
 
-
                         {/* Hover Image */}
                         <div
-                            className="absolute top-32 right-32 lg:top-32 lg:right-20 2xl:right-36 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0"
+                            className="absolute top-32 right-32 lg:top-32 lg:right-20 2xl:right-36 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0 pointer-events-none"
                         >
                             <img
                                 src="/assest/services/Rectangle.png"
@@ -99,7 +98,6 @@ const ServicesSection = () => {
                                 className="w-auto h-auto 2xl:w-[142px] desktop:w-[160px] object-contain"
                             />
                         </div>
-
                     </div>
                 ))}
             </div>
