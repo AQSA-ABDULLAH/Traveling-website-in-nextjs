@@ -35,7 +35,7 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section className="py-20 relative max-h-[620px]">
+        <section className="py-20 relative max-h-[610px]">
 
             {/* Section Header */}
             <div className="text-center mb-12">
