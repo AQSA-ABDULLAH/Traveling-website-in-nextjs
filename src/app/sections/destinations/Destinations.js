@@ -21,7 +21,7 @@ const destinations = [
 
 const Destinations = () => {
     return (
-        <section className="py-28 bg-white mr-6 sm:mr-0">
+        <section className="pt-28 bg-white mr-6 sm:mr-0">
             {/* Section Header */}
             <div className="container mx-auto text-center mb-12">
                 <p className="text-[22px] sm:text-[28px] lg:text-[19px] 2xl:text-[18px] text-[#5E6282] font-poppins font-semibold mb-3">Top Selling</p>
