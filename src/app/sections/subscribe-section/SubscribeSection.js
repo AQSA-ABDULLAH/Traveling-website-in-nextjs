@@ -9,6 +9,11 @@ export default function SubscribeSection() {
 
           <div className="flex flex-col gap-10 lg:flex-row justify-center items-center space-x-4">
             <div className="flex items-center bg-white rounded-lg p-2 w-full max-w-[420px] 2xl:max-w-[700px] z-10">
+            <img
+          src="/assest/subscribe/Group 46.png"
+          className="w-auto h-auto"
+          alt="Subscription Icon"
+        />
               <input
                 type="email"
                 placeholder="Your email"
