@@ -35,7 +35,7 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section className="py-20 relative max-h-[610px]">
+        <section className="py-20 relative max-h-screen xl:max-h-[610px] 2xl:max-h-screen">
 
             {/* Section Header */}
             <div className="text-center mb-12">
@@ -90,12 +90,12 @@ const ServicesSection = () => {
 
                         {/* Hover Image */}
                         <div
-                            className="absolute top-32 right-32 lg:top-32 lg:right-20 2xl:right-36 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0 pointer-events-none"
+                            className="absolute top-32 right-32 lg:top-36 lg:right-20 2xl:right-36 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0 pointer-events-none"
                         >
                             <img
                                 src="/assest/services/Rectangle.png"
                                 alt="Hover Background"
-                                className="w-auto h-auto 2xl:w-[142px] desktop:w-[160px] object-contain"
+                                className="w-auto h-auto 2xl:w-[220px] object-contain"
                             />
                         </div>
                     </div>
