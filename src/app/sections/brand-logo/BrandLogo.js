@@ -19,7 +19,7 @@ export default function BrandLogos() {
               <img
                 src={brand.logo}
                 alt={brand.name}
-                className="w-40 sm:w-auto sm:h-10 2xl:h-12 desktop:h-16 object-contain"
+                className="w-40 sm:w-auto sm:h-10 2xl:h-12 desktop:h-16 object-contain filter grayscale hover:grayscale-0 transition duration-300"
               />
             </div>
           ))}
@@ -28,5 +28,6 @@ export default function BrandLogos() {
     </div>
   );
 }
+
 
   

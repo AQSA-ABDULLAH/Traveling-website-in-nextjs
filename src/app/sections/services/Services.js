@@ -47,6 +47,12 @@ const ServicesSection = () => {
                 </h2>
             </div>
 
+            {/* <img
+                                src="/assest/services/Rectangle.png"
+                                alt="Hover Background"
+                                className="w-auto h-auto 2xl:w-[220px] object-contain"
+                            /> */}
+
             {/* Service Cards */}
             <div className="flex flex-wrap justify-center gap-16 xl:justify-between 2xl:justify-center desktop:justify-between relative">
                 {services.map((service, index) => (
