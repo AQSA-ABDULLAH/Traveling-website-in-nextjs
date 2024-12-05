@@ -9,7 +9,7 @@ export default function Hero() {
               src="/assest/decore/Decore.png"
               alt=""
               className="absolute top-[0px] right-[0px] w-[280px] sm:w-[380px] sm:h[380px] lg:w-[620px] lg:h-[640px] 
-              opacity-100 2xl:w-[740px] 2xl:h-[800px] desktop:w-[850px] desktop:h-[920px]"
+              opacity-100 2xl:w-[766px] 2xl:h-[870px]"
           />
           
           {/* Header and Main */}
