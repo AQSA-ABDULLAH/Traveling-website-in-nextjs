@@ -19,6 +19,14 @@ const testimonials = [
     name: "Emily Watson",
     pos: "CTO of BlueSky",
   },
+  {
+    image: "/assest/Testimonials/Image.png",
+    des: "“Next portion of the On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
+    writer: "John Doe",
+    location: "New York, USA",
+    name: "The Emily Watson",
+    pos: "CTO of BlueSky",
+  },
 ];
 
 export default function Testimonials() {
@@ -45,11 +53,18 @@ export default function Testimonials() {
           <h2 className="text-[38px] sm:text-[49px] lg:text-[53px] 2xl:text-[63px] desktop:text-[74px] text-[#14183E] font-volkhov font-bold mb-6">
             What People Say About Us
           </h2>
-          <img
-            src="/assest/Testimonials/Group 61.png"
-            alt="Testimonials decoration"
-            className="w-[100px] mt-4"
-          />
+          
+          {/* Slide Indicators */}
+          <div className="flex mt-6 space-x-2">
+            {testimonials.map((_, index) => (
+              <span
+                key={index}
+                onClick={() => setActiveIndex(index)}
+                className={`w-3 h-3 cursor-pointer rounded-full ${index === activeIndex ? "bg-black" : "bg-gray-300"
+                  }`}
+              ></span>
+            ))}
+          </div>
         </section>
 
         {/* Right Section - Image Carousel */}
@@ -97,6 +112,3 @@ export default function Testimonials() {
     </div>
   );
 }
-
-
-
