@@ -21,11 +21,11 @@ const BookTrip = () => {
     <div className="lg:pt-0 pt-32">
       <div className="max-w-screen flex flex-col justify-center lg:flex-row lg:items-center lg:justify-between">
         {/* Left Side */}
-        <div className="lg:w-[48%] 2xl:w-[40%] desktop:w-[43%] lg:pr-12 desktop:pr-4">
-          <h3 className="text-[28px] sm:text-[35px] lg:text-[20px] 2xl:text-[18px] desktop:text-[30px] text-[#5E6282] font-poppins font-semibold lg:mb-2">
+        <div className="lg:w-[48%] 2xl:w-[40%] desktop:w-[38%] lg:pr-12 desktop:pr-4">
+          <h3 className="text-[28px] sm:text-[35px] lg:text-[20px] 2xl:text-[18px] desktop:text-[28px] text-[#5E6282] font-poppins font-semibold lg:mb-2">
             Easy and Fast
           </h3>
-          <h2 className="text-[32px] sm:text-[60px] lg:text-[53px] 2xl:text-[56px] desktop:text-[74px] text-[#14183E] font-volkhov font-bold mb-6">
+          <h2 className="text-[32px] sm:text-[60px] lg:text-[53px] 2xl:text-[56px] desktop:text-[65px] text-[#14183E] font-volkhov font-bold mb-6">
             Book Your Next Trip In 3 Easy Steps
           </h2>
           <div className="lg:w-[440px] 2xl:w-[600px] desktop:w-[740px] space-y-4">
@@ -52,7 +52,7 @@ const BookTrip = () => {
           <img
             src="/assest/book-section/Image.png"
             alt="Trip to Greece"
-            className="w-[960px] lg:w-[750px] lg:h-[780px] 2xl:w-[1000px] 2xl:h-[1000px] desktop:w-[1300px] desktop:h-[1150px]"
+            className="w-[960px] lg:w-[750px] lg:h-[780px] 2xl:w-[1000px] 2xl:h-[1000px] desktop:w-[1000px] desktop:h-[1150px]"
           />
         </div>
       </div>

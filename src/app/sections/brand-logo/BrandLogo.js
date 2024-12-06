@@ -8,7 +8,7 @@ export default function BrandLogos() {
   ];
 
   return (
-    <div className="py-20 bg-white">
+    <div className="pb-32 pt-48 bg-white">
       <div className="max-w-screen">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           {brands.map((brand, index) => (

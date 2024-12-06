@@ -8,7 +8,7 @@ export default function SubscribeSection() {
           </h1>
 
           <div className="flex flex-col gap-10 lg:flex-row justify-center items-center space-x-4">
-            <div className="flex items-center bg-white rounded-lg p-2 w-full max-w-[420px] z-10">
+            <div className="flex items-center bg-white rounded-lg p-2 sm:w-[890px] max-w-[420px] z-10">
             <img
           src="/assest/subscribe/Group 46.png"
           className="w-auto h-auto"
