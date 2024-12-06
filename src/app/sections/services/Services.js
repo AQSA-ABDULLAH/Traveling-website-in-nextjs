@@ -35,7 +35,7 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section className="py-10 mr-4 sm:mr-0 relative xl:max-h-[610px] 2xl:h-screen">
+        <section className="py-10 mr-4 sm:mr-0 relative xl:min-h-[560px]">
 
             {/* Section Header */}
             <div className="text-center mb-12">
@@ -52,7 +52,7 @@ const ServicesSection = () => {
                 {services.map((service, index) => (
                     <div
                         key={index}
-                        className="w-[280px] md:w-[220px] lg:w-[200px] 2xl:w-[190px] 2xl:hover:w-[210px] desktop:w-[250px] desktop:hover:w-[260px] flex flex-col 
+                        className="w-[280px] md:w-[220px] lg:w-[220px] 2xl:min-w-[190px] desktop:w-[250px] desktop:hover:w-[260px] flex flex-col 
                         items-center relative group"
                     >
                         <section className="z-10 hover:bg-white rounded-2xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:p-2 relative">
@@ -82,7 +82,7 @@ const ServicesSection = () => {
                                 <h3 className="text-[18px] lg:text-[18px] 2xl:text-[20px] text-[#1E1D4C] font-semibold mb-2 tracking-wide 2xl:tracking-normal transition-all duration-300 group-hover:text-[#14183E]">
                                     {service.title}
                                 </h3>
-                                <p className="text-[18px] lg:text-[16px] 2xl:text-[16px] text-[#5E6282] mb-2 tracking-wide transition-all duration-300 group-hover:text-[#1E1D4C]">
+                                <p className="text-[18px] lg:text-[14px] 2xl:text-[16px] text-[#5E6282] mb-2 tracking-wide transition-all duration-300 group-hover:text-[#1E1D4C]">
                                     {service.description}
                                 </p>
                             </div>
@@ -90,7 +90,7 @@ const ServicesSection = () => {
 
                         {/* Hover Image */}
                         <div
-                            className="absolute top-32 right-32 lg:top-36 lg:right-20 2xl:top-28 2xl:right-30 desktop:right-32 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0 pointer-events-none"
+                            className="absolute top-32 right-32 lg:top-[110px] lg:right-[100px] 2xl:top-28 2xl:right-30 desktop:right-32 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0 pointer-events-none"
                         >
                             <img
                                 src="/assest/services/Rectangle.png"
