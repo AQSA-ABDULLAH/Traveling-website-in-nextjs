@@ -71,7 +71,7 @@ export default function Testimonials() {
         <section className="flex items-center justify-end mt-12 lg:mt-0">
           <div className="relative">
             {/* Display only the active testimonial */}
-            <div className="w-[400px] sm:w-[560px] h-auto">
+            <div className="w-[300px] sm:w-[560px] h-auto">
               <TestimonialCard testimonial={testimonials[activeIndex]} />
             </div>
 
@@ -92,7 +92,7 @@ export default function Testimonials() {
             </div>
 
             {/* Navigation Buttons for Small Screens */}
-            <div className="flex justify-center mt-28 space-x-8 lg:hidden">
+            <div className="flex justify-center mt-40 space-x-8 lg:hidden">
               <button
                 onClick={prevSlide}
                 className="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-full shadow-lg hover:bg-gray-300"

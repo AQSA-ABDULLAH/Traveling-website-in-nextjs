@@ -34,11 +34,11 @@ const BookTrip = () => {
                 <div className=" flex items-center justify-center rounded-lg mt-6 sm:mt-0">
                   <img src={step.icon} alt={`${step.title} icon`} className="sm:w-24 sm:h-20 lg:w-16 lg:h-12 2xl:w-18 2xl:h-16" />
                 </div>
-                <div className="px-16 sm:px-0 2xl:w-[360px]">
-                  <h4 className="text-[24px] sm:text-[32px] lg:text-[18px] 2xl:text-[16px] desktop:text-[20px] font-[600] font-poppins text-[#5E6282]">
+                <div className="px-4 sm:px-0 2xl:w-[360px]">
+                  <h4 className="text-[20px] sm:text-[32px] lg:text-[18px] 2xl:text-[16px] desktop:text-[20px] font-[600] font-poppins text-[#5E6282]">
                     {step.title}
                   </h4>
-                  <p className="text-[20px] sm:text-[25px] lg:text-[17px] 2xl:text-[16px] desktop:text-[20px] font-poppins leading-7 sm:leading-9 lg:leading-6 2xl:leading-9 text-[#5E6282]">
+                  <p className="text-[18px] sm:text-[25px] lg:text-[17px] 2xl:text-[16px] desktop:text-[20px] font-poppins leading-7 sm:leading-9 lg:leading-6 2xl:leading-9 text-[#5E6282]">
                     {step.description}
                   </p>
                 </div>

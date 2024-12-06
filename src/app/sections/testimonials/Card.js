@@ -23,8 +23,8 @@ const TestimonialCard = ({ testimonial }) => {
             </div>
 
             {/* Additional Info */}
-            <div className="absolute top-32 left-10 w-full border bg-gray-100 rounded-lg z-0 ">
-                <div className="px-6 pt-[182px] sm:pt-[160px] py-4">
+            <div className="absolute h-[360px] sm:h-[240px] top-32 left-10 w-full border bg-gray-100 rounded-lg z-0 ">
+                <div className="px-6 absolute bottom-0 py-4">
                     <p className="font-bold text-gray-800">{testimonial.name}Chris Thomas</p>
                     <p className="text-sm text-gray-600">{testimonial.pos}CEO of Red Button</p>
                 </div>
